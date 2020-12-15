@@ -10,6 +10,9 @@ body {
      align-items: center;
      box-sizing: border-box;
      margin: 0px;
+     font-family: 'Lobster', cursive;
+     font-size: 5vmin;
+     text-shadow: 1px 1px 5px #2c3e50;
 }
 
 .container {
@@ -33,6 +36,29 @@ body {
 
 .form, .greetings{
     display:none;
+}
+
+.js-toDoList {
+    font-size: 80%;
+}
+
+input[type=text]{
+    width: 100%;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-size: 5vmin;
+    text-align: center;
+    color: rgb(146, 144, 141);
+    text-shadow: 1px 1px 5px #2c3e50;
+}
+
+input::placeholder{
+    color:white;
 }
 
 .showing {
